@@ -78,9 +78,9 @@ function UpdateForm() {
                     <p >{ errorMessage }</p>
                 </div>
             }
-            <form onSubmit={handleSubmit} className="" id="UpdateForm">
+            <form onSubmit={handleSubmit} id="UpdateForm">
                 <div className="UpdateForm-groupLabel">
-                <label>
+                    <label>
                         Nom
                         <br/>
                         <input
@@ -90,7 +90,7 @@ function UpdateForm() {
                             onChange={(event) => setLastName(event.target.value)}
                     />
                     </label>
-                    <label className="">
+                    <label>
                         Prénom
                         <br/>
                         <input
@@ -102,7 +102,7 @@ function UpdateForm() {
                     </label>
                 </div >
                 <div className="UpdateForm-groupLabel">
-                    <label className="">
+                    <label>
                         Votre poste
                         <br/>
                         <input
@@ -114,7 +114,7 @@ function UpdateForm() {
                     </label>
                 </div>
                 <div className="UpdateForm-groupLabel">
-                    <label className="">
+                    <label>
                         Adresse email
                         <br/>
                         <input
@@ -129,7 +129,7 @@ function UpdateForm() {
                             </div>
                         }
                     </label>
-                    <label className="">
+                    <label>
                         Numéro de téléphone
                         <br/>
                         <input
